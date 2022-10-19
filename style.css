@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Cormorant", serif;
+}
+
+.hide {
+  display: none;
+}
+
+.col {
+  border: 1px solid #000;
+  height: 100vh;
+  background-color: green;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+.col_text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 10px;
+}
+.col_text:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.col_btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.col_btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: 0.2s;
+}/*# sourceMappingURL=style.css.map */
