@@ -30,7 +30,7 @@
     justify-content: space-around;
     align-items: center;
 
-    flex-grow: 1;
+    flex: 1;
 
     &_text{
         color: #fff;
@@ -52,6 +52,8 @@
         color: #fff;
         font-size: 1.5rem;
         padding: 10px;
+        outline: none;
+ 
     }
 
     &_btn:hover{
@@ -61,4 +63,3 @@
     }
 
 }
-
